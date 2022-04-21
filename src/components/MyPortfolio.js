@@ -10,7 +10,7 @@ const MyPortfolio = () => {
   useEffect(() => {
     const projectsDataFunction = async () => {
       try {
-        const res = await axios.get(`http://localhost:3500/projects`);
+        const res = await axios.get(`https://humber-react-portfolio-backend.herokuapp.com/projects`);
         // console.log(res);
         setData(res.data);
       } catch (err) {}

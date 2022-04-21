@@ -10,7 +10,7 @@ const MyAbout = () => {
   useEffect(() => {
     const skillsDataFunction = async () => {
       try {
-        const res = await axios.get(`http://localhost:3500/skills`);
+        const res = await axios.get(`https://humber-react-portfolio-backend.herokuapp.com/skills`);
         // console.log(res);
         setData(res.data);
       } catch (err) {}

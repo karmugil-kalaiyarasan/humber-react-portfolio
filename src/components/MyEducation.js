@@ -10,7 +10,7 @@ const MyEducation = () => {
   useEffect(() => {
     const educationDataFunction = async () => {
       try {
-        const res = await axios.get(`http://localhost:3500/education`);
+        const res = await axios.get(`https://humber-react-portfolio-backend.herokuapp.com/education`);
         // console.log(res);
         setData(res.data);
       } catch (err) {}
@@ -24,7 +24,7 @@ const MyEducation = () => {
     <section className='myEducation' id='myEducation'>
      <h1 className="heading">my <span>education</span></h1>
      <div className="box-container">
-     {data.map((item)=>(<MyEducationDetails title={item.title} description={item.description} startdate={item.startdate} enddate={item.enddate} key={item.key} />))}
+     {data.map((item)=>(<MyEducationDetails title={item.title} description={item.description} startdate={item.startdate} enddate={item.enddate} key={item.id} />))}
      </div>
     </section>
   )

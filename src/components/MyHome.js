@@ -10,7 +10,7 @@ const MyHome = () => {
   useEffect(() => {
     const homeDataFunction = async () => {
       try {
-        const res = await axios.get(`http://localhost:3500/descriptions`);
+        const res = await axios.get(`https://humber-react-portfolio-backend.herokuapp.com/descriptions`);
         setData(res.data); //setting up the whole popular movie array
         // setMoviesList(popularMovies[0].shows); //setting up the movie array from the popular movie array
         // setData(res.data);

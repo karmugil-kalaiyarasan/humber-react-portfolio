@@ -9,7 +9,7 @@ const MyContact = () => {
   useEffect(() => {
     const contactDataFunction = async () => {
       try {
-        const res = await axios.get(`http://localhost:3500/contacts`);
+        const res = await axios.get(`https://humber-react-portfolio-backend.herokuapp.com/contacts`);
         // console.log(res);
         setData(res.data);
       } catch (err) {}
