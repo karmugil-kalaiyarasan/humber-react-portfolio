@@ -1,0 +1,79 @@
+{
+    "descriptions": {
+        "id": 1,
+        "title": "HI THERE!",
+        "name": "Karmugil Kalaiyarasan Kavitha",
+        "description": "A full stack developer having knowledge on cutting edge front-end and back-end technologies and laguages. Along with that I am also very familiar with SQL and NoSQL queries and development which involves designing of those databases. I have 2 years of experience in Software Testing and Full-stack development. Please look into my portfolio to know more about me."
+    },
+    "contacts": {
+        "id": 1,
+        "email": "karmugil95@gmail.com",
+        "phone": 4373265654,
+        "address": "Etobicoke,Toronto,Canada - M9V 1L8"
+    },
+    "skills": [{
+        "id": 1,
+        "title": "HTML"
+    },{
+        "id": 2,
+        "title": "CSS"
+    },{
+        "id": 3,
+        "title": "Javascript"
+    },{
+        "id": 4,
+        "title": "ReactJS"
+    },{
+        "id": 5,
+        "title": "NodeJS"
+    },
+    {
+        "id": 6,
+        "title": "ExpressJS"
+    }],    "education": [{
+        "id": 1,
+        "title": "Bachelor's in Electrical and Electronic Engineering",
+        "description": "I have done my Bachelor's degree on Electrical and Electroninc Engineering. While taking this program I came across software development courses like c++, Java and Database management. That is when I found my love towards technology and started exploring more which helped me find out my Work and Post-Graduation on Software Field.",
+        "startdate": "2013",
+        "enddate": "2017"
+    },{
+        "id": 2,
+        "title": "Post-Graduation Certification in Database Application Developer",
+        "description": "Once I gained knowledge on software developing and worked on software industry for more than 2 years, I thought it would be a good time to dig deep on technologies like Databases along with developing applications with responsive web pages that uses the data from Databases. Fortunately I found this course which helped me learn about SQL and NoSQL database development and designing along with I have also gained knowledge regarding server development technologies like NodeJS, ExpressJS, Springboot. Also, I learned ReactJS for the front end development of web pages.",
+        "startdate": "2020",
+        "enddate": "2021"
+    },{
+        "id": 3,
+        "title": "Post-Graduation Certification in Web Development",
+        "description": "Although I have learned all these technologies my front-end skills like HTML,CSS and Venilla Javascript was not that strong. So I decided to take a web developemnt program in Humber where I learned these three technologies intensively.",
+        "startdate": "2021",
+        "enddate": "2022"
+    }],"projects": [{
+        "id": 1,
+        "url": "https://netflix-clone-e6c3a.web.app/",
+        "image": "https://miro.medium.com/max/1400/1*br-azwpt18mYuOccTXgY0w.png"
+    },{
+        "id": 2,
+        "url": "https://github.com/karmugil-kalaiyarasan/ecommerce-reactjs.git",
+        "image": "https://cdn.geekwire.com/wp-content/uploads/2014/09/amazon-new-look.jpg"
+    },{
+        "id": 3,
+        "url": "https://github.com/karmugil-kalaiyarasan/calculator.git",
+        "image": "https://directdesign.hr/couch/uploads/image/personal-appcalculator01.png"
+    },
+    {
+        "id": 4,
+        "url": "https://github.com/karmugil-kalaiyarasan/quiz-app.git",
+        "image": "https://gotest.pk/wp-content/uploads/2015/03/Kaun-Banega-Crorepati.jpg"
+    },
+    {
+        "id": 5,
+        "url": "https://github.com/karmugil-kalaiyarasan/weather-app.git",
+        "image": "https://i.pinimg.com/originals/11/1f/b1/111fb12682aa19efa8ebdab9ab968f6a.png"
+    },
+    {
+        "id": 6,
+        "url": "https://github.com/karmugil-kalaiyarasan/expense-tracker.git",
+        "image": "https://images.ctfassets.net/ifu905unnj2g/1gkVsNRiHXZUkDYqYA2wJZ/2212592547665c6fc18f799ae013fcae/mint_iphone.jpg"
+    }]
+}
